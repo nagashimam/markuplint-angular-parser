@@ -9,6 +9,9 @@
   "engines": {
     "node": ">=v10"
   },
+  "bin": {
+    "list-invalid-attr": "lib/list-invalid-attr.js"
+  },
   "main": "lib/index.js",
   "module": "lib/index.es2019.mjs",
   "exports": {
