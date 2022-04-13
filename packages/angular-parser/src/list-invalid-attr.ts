@@ -80,6 +80,6 @@ const checkDirectory = (dir: string) => {
   })
 }
 
-// Not all Angular projects puts files under src directory(e.g. monorepo app, library, .etc)
+// Not all Angular projects put files under src directory(e.g. monorepo app, library, .etc)
 const srcDir = process.argv[2] || 'src'
 checkDirectory(srcDir)
